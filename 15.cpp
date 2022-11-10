@@ -2,42 +2,42 @@
 
 int main()
 {
-    int n;// переменная имеет целочисленный тип данных int.
+    int n;// РїРµСЂРµРјРµРЅРЅР°СЏ РёРјРµРµС‚ С†РµР»РѕС‡РёСЃР»РµРЅРЅС‹Р№ С‚РёРї РґР°РЅРЅС‹С… int.
 
-    std::cout << "enter the number of month" << std::endl;// отображение вывода на стандартное устройство вывода
-    std::cin >> n;// ввод n
-    if (n == 1)// если n=1 nj
-        std::cout << "January ";// вывод январь
-    else if (n == 2)// если двум
-        std::cout << "February ";// вывод февраль
-    else if (n == 3)// если трем
-        std::cout << "March ";// вывод март
-    else if (n == 4) // если 4
-        std::cout << "April ";// вывод апрель
-    else if (n == 5)// если 5
-        std::cout << "May " ;// вывод май
-    else if (n == 6)// если 6
-        std::cout << "June " ;// вывод июнь
-    else if (n == 7)// если 7
-        std::cout << "July ";// вывод июль
-    else if (n == 8)// если 8
-        std::cout << "August ";// вывод август
-    else if (n == 9)// если 9
-        std::cout << "September ";// вывод сентябрь
-    else if (n == 10)// если 10
-        std::cout << "october ";// вывод октябрь
-    else if (n == 11)// если 11
-        std::cout << "November ";// вывод ноябрь
-    else if (n == 12)// если 12
-        std::cout << "December ";// вывод декабрь
-    if (n== 1 || n == 2 || n== 12)// если 1 2 или 12
-        std::cout << "Winter " << std::endl;// вывод зима
-    else if (n > 2 && n< 6)// если от 3 до 5
-        std::cout << "Spring " << std::endl;// вывод весна
-    else if (n > 5 && n < 9)// если от 6 до 8
-        std::cout << "Summer " << std::endl;// вывод лето
-    else if (n> 8 && n < 12)// если от 9 до 11
-        std::cout << "Autmn " << std::endl;// вывод осень
+    std::cout << "enter the number of month" << std::endl;// РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ РІС‹РІРѕРґР° РЅР° СЃС‚Р°РЅРґР°СЂС‚РЅРѕРµ СѓСЃС‚СЂРѕР№СЃС‚РІРѕ РІС‹РІРѕРґР°
+    std::cin >> n;// РІРІРѕРґ n
+    if (n == 1)// РµСЃР»Рё n=1 nj
+        std::cout << "January ";// РІС‹РІРѕРґ СЏРЅРІР°СЂСЊ
+    else if (n == 2)// РµСЃР»Рё РґРІСѓРј
+        std::cout << "February ";// РІС‹РІРѕРґ С„РµРІСЂР°Р»СЊ
+    else if (n == 3)// РµСЃР»Рё С‚СЂРµРј
+        std::cout << "March ";// РІС‹РІРѕРґ РјР°СЂС‚
+    else if (n == 4) // РµСЃР»Рё 4
+        std::cout << "April ";// РІС‹РІРѕРґ Р°РїСЂРµР»СЊ
+    else if (n == 5)// РµСЃР»Рё 5
+        std::cout << "May " ;// РІС‹РІРѕРґ РјР°Р№
+    else if (n == 6)// РµСЃР»Рё 6
+        std::cout << "June " ;// РІС‹РІРѕРґ РёСЋРЅСЊ
+    else if (n == 7)// РµСЃР»Рё 7
+        std::cout << "July ";// РІС‹РІРѕРґ РёСЋР»СЊ
+    else if (n == 8)// РµСЃР»Рё 8
+        std::cout << "August ";// РІС‹РІРѕРґ Р°РІРіСѓСЃС‚
+    else if (n == 9)// РµСЃР»Рё 9
+        std::cout << "September ";// РІС‹РІРѕРґ СЃРµРЅС‚СЏР±СЂСЊ
+    else if (n == 10)// РµСЃР»Рё 10
+        std::cout << "october ";// РІС‹РІРѕРґ РѕРєС‚СЏР±СЂСЊ
+    else if (n == 11)// РµСЃР»Рё 11
+        std::cout << "November ";// РІС‹РІРѕРґ РЅРѕСЏР±СЂСЊ
+    else if (n == 12)// РµСЃР»Рё 12
+        std::cout << "December ";// РІС‹РІРѕРґ РґРµРєР°Р±СЂСЊ
+    if (n== 1 || n == 2 || n== 12)// РµСЃР»Рё 1 2 РёР»Рё 12
+        std::cout << "Winter " << std::endl;// РІС‹РІРѕРґ Р·РёРјР°
+    else if (n > 2 && n< 6)// РµСЃР»Рё РѕС‚ 3 РґРѕ 5
+        std::cout << "Spring " << std::endl;// РІС‹РІРѕРґ РІРµСЃРЅР°
+    else if (n > 5 && n < 9)// РµСЃР»Рё РѕС‚ 6 РґРѕ 8
+        std::cout << "Summer " << std::endl;// РІС‹РІРѕРґ Р»РµС‚Рѕ
+    else if (n> 8 && n < 12)// РµСЃР»Рё РѕС‚ 9 РґРѕ 11
+        std::cout << "Autmn " << std::endl;// РІС‹РІРѕРґ РѕСЃРµРЅСЊ
     else
-        std::cout << "Ошибка ввода данных " << std::endl;// иначе вывод ошибки данных
+        std::cout << "РћС€РёР±РєР° РІРІРѕРґР° РґР°РЅРЅС‹С… " << std::endl;// РёРЅР°С‡Рµ РІС‹РІРѕРґ РѕС€РёР±РєРё РґР°РЅРЅС‹С…
 }
